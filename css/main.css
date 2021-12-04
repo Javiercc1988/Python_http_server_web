@@ -1,0 +1,149 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+}
+
+/* FONTS*/
+
+h2{
+    font-size: 4rem;
+}
+
+p{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+}
+
+/* HEADER */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #202125;
+    height: 10rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 40rem;
+    justify-content: space-around;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+.menu-item {
+    font-size: 1.8rem;
+    width: 10rem;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.menu-item:hover{
+    background-color: white;
+    color: #202125;
+}
+
+
+/* PRODUCTS */
+
+.product-container, .product-container2{
+    display: flex;
+    justify-content: center;
+}
+
+.product-container{
+    margin-bottom: 5rem;
+}
+
+.product-container img{
+    margin-right: 12rem;
+}
+
+.product-container2 img{
+    margin-left: 12rem;
+}
+
+.product-container2{
+    margin-top: 5rem;
+}
+
+.product-description{
+    display: flex;
+    width: 45rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{
+    color: #0361d1;
+
+}
+
+
+.product-container2 h2{
+    margin: 1rem;
+}
+
+.product-container2 h3{
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    width: 20rem;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.product-container p {
+    text-align: justify;
+}
+
+/* FOOTER */
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202125;
+    height: 100px;
+    transition: all .3s ease;
+    margin-top: 5rem;
+
+}
+
+.footer-container a{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.footer-container:hover,.footer-container a:hover{
+    background-color:white;
+    color: #202125;
+}
+
+.blue{
+    color: #0361d1;
+}
